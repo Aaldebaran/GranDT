@@ -1,0 +1,6 @@
+{
+  "_instrucciones": "Cada DT tiene su codigo por ronda. Pegá el codigo que te manda cada amigo (lo genera la pagina 'Armar equipo'). Si en una ronda no cambia, no hace falta repetir: hereda el de la ronda anterior. Borrá esta linea _instrucciones cuando cargues los reales.",
+  "Gaby":   { "R1": "PEGAR_CODIGO_AQUI" },
+  "Colo":   { "R1": "PEGAR_CODIGO_AQUI" },
+  "Tincho": { "R1": "PEGAR_CODIGO_AQUI" }
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0c0e0c">
+<title>Gran DT Mundial 2026 — Armar equipo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0e0c;--card:#181c17;--card-hi:#1f241d;--line:#2a2f27;--ink:#eef1ea;--ink-dim:#9aa295;--ink-faint:#646b5e;--lime:#c8f94b;--lime-deep:#9bd400;--orange:#ff8a3d;--red:#ff5d5d}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Hanken Grotesk',sans-serif;line-height:1.45;-webkit-font-smoothing:antialiased;min-height:100vh;background-image:radial-gradient(120% 60% at 50% -10%,#1a2016 0%,transparent 60%)}
+.wrap{max-width:480px;margin:0 auto;padding-bottom:120px}
+header{position:sticky;top:0;z-index:30;background:linear-gradient(180deg,#0c0e0c 60%,#0c0e0cdd);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 18px 12px}
+.brand{display:flex;align-items:baseline;justify-content:space-between}
+.brand h1{font-family:'Anton';font-weight:400;font-size:20px;letter-spacing:.5px;text-transform:uppercase}
+.brand h1 span{color:var(--lime)}
+.brand a{font-size:11px;color:var(--ink-dim);text-decoration:none;border:1px solid var(--line);padding:5px 9px;border-radius:99px;font-weight:700}
+.budget{margin-top:12px;display:flex;align-items:flex-end;justify-content:space-between}
+.budget .lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink-dim);font-weight:700}
+.budget .num{font-family:'Anton';font-size:36px;line-height:.85;font-variant-numeric:tabular-nums;transition:color .25s}
+.budget .num.bad{color:var(--red)} .budget .num.warn{color:var(--orange)}
+.bar{height:5px;background:#23271f;border-radius:99px;overflow:hidden;margin-top:10px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--lime-deep),var(--lime));transition:width .3s}
+.bar i.bad{background:var(--red)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 18px;border-bottom:1px solid var(--line);scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font-size:11px;font-weight:700;padding:5px 10px;border-radius:99px;border:1px solid var(--line);color:var(--ink-dim);white-space:nowrap}
+.chip.done{border-color:#3c4a2e;background:#1b2415;color:var(--lime)} .chip.over{border-color:#5a2a2a;background:#241414;color:var(--red)}
+details.rules{margin:14px 18px;background:#13160f;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+details.rules summary{cursor:pointer;padding:12px 14px;font-weight:800;font-size:13px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+details.rules summary::-webkit-details-marker{display:none}
+details.rules summary::after{content:"▾";color:var(--lime)}
+details.rules[open] summary::after{content:"▴"}
+.rules .body{padding:0 14px 14px;font-size:12.5px;color:var(--ink-dim);line-height:1.5}
+.rules .body b{color:var(--ink)} .rules .body ul{margin:6px 0 6px 16px} .rules .body li{margin:3px 0}
+.sec-h{display:flex;align-items:center;gap:8px;padding:16px 18px 8px}
+.sec-h h2{font-family:'Anton';font-weight:400;font-size:14px;letter-spacing:1px;text-transform:uppercase}
+.sec-h .ln{flex:1;height:1px;background:var(--line)} .sec-h .ct{font-size:11px;color:var(--ink-faint);font-weight:700}
+.pos-group{padding:0 18px} .pos-lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink-faint);font-weight:700;margin:10px 0 6px}
+.slot{display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:8px 10px;margin-bottom:6px}
+.slot.empty{border-style:dashed;background:transparent;color:var(--ink-faint);justify-content:center;font-size:12px;font-weight:600}
+.pl{flex:1;min-width:0}.pl .n{font-weight:700;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.pl .m{font-size:11px;color:var(--ink-dim)}
+.price{font-family:'Anton';font-size:15px;color:var(--lime);font-variant-numeric:tabular-nums}.price small{font-size:9px;color:var(--ink-faint);font-family:'Hanken Grotesk';font-weight:700}
+.cap-btn,.rm-btn{width:28px;height:28px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);cursor:pointer;font-weight:800;display:grid;place-items:center;flex:0 0 auto}
+.cap-btn.on{background:var(--orange);border-color:var(--orange);color:#1a1206} .rm-btn{font-size:16px}
+.filters{padding:6px 18px 0;display:flex;flex-direction:column;gap:8px}
+.search{width:100%;background:var(--card);border:1px solid var(--line);border-radius:10px;color:var(--ink);font-family:inherit;font-size:14px;padding:10px 12px}
+.search:focus{outline:none;border-color:var(--lime-deep)}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;font-size:12px;font-weight:700;padding:7px 13px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--ink-dim);cursor:pointer}
+.tab.on{background:var(--lime);border-color:var(--lime);color:#11160a}
+.list{padding:10px 18px 0;display:flex;flex-direction:column;gap:6px}
+.row{display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:8px 10px}
+.row.blocked{opacity:.42}
+.pos-tag{font-size:9px;font-weight:800;padding:3px 6px;border-radius:6px;background:#23271f;color:var(--ink-dim);min-width:32px;text-align:center;flex:0 0 auto}
+.add-btn{width:30px;height:30px;border-radius:9px;border:none;cursor:pointer;background:var(--lime);color:#11160a;font-size:20px;font-weight:800;display:grid;place-items:center;flex:0 0 auto}
+.add-btn:disabled{background:#23271f;color:var(--ink-faint);cursor:not-allowed}
+.reason{font-size:10px;color:var(--ink-faint);font-weight:600;max-width:74px;text-align:right;line-height:1.15;flex:0 0 auto}
+.foot{position:fixed;left:0;right:0;bottom:0;z-index:40;max-width:480px;margin:0 auto;padding:12px 18px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(0deg,#0c0e0c 70%,transparent)}
+.gen{width:100%;border:none;border-radius:13px;padding:15px;cursor:pointer;font-family:'Anton';font-size:17px;letter-spacing:1px;text-transform:uppercase;background:var(--lime);color:#11160a}
+.gen:disabled{background:#23271f;color:var(--ink-faint);cursor:not-allowed}
+.gen .sub{display:block;font-family:'Hanken Grotesk';font-size:11px;letter-spacing:0;text-transform:none;font-weight:600;margin-top:2px;opacity:.8}
+.modal{position:fixed;inset:0;z-index:60;background:#000a;display:none;align-items:center;justify-content:center;padding:20px}
+.modal.show{display:flex}
+.box{background:var(--card-hi);border:1px solid var(--line);border-radius:16px;padding:20px;max-width:420px;width:100%}
+.box h3{font-family:'Anton';font-weight:400;font-size:18px;text-transform:uppercase;margin-bottom:6px}
+.box p{font-size:13px;color:var(--ink-dim);margin-bottom:12px}
+.code{background:#0c0e0c;border:1px dashed var(--lime-deep);border-radius:10px;padding:12px;font-family:monospace;font-size:12px;word-break:break-all;color:var(--lime);margin-bottom:12px}
+.box .acts{display:flex;gap:8px}.box button{flex:1;border:none;border-radius:10px;padding:12px;font-weight:800;cursor:pointer}
+.copy{background:var(--lime);color:#11160a}.close{background:#23271f;color:var(--ink)}
+.banner{margin:0 18px 4px;font-size:11px;color:var(--ink-dim);background:#16140c;border:1px solid #3a3414;border-left:3px solid var(--orange);border-radius:8px;padding:8px 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>Armar <span>equipo</span></h1><a href="index.html">Ver tabla →</a></div>
+    <div class="budget"><div><div class="lbl">Presupuesto</div><div class="num" id="bn">$65.0<small style="font-size:13px"> M</small></div></div></div>
+    <div class="bar"><i id="bb" style="width:0%"></i></div>
+  </header>
+  <div class="chips" id="chips"></div>
+
+  <details class="rules">
+    <summary>Cómo se juega (tocá para abrir)</summary>
+    <div class="body">
+      <b>Objetivo:</b> armás un equipo de 15 jugadores reales del Mundial con $65 M y sumás puntos por lo que hacen en la cancha. Gana quien más junta al final.
+      <ul>
+        <li><b>Plantel:</b> 2 arqueros, 5 defensores, 5 volantes, 3 delanteros. Máximo <b>4 jugadores de una misma selección</b>. Elegís <b>1 capitán</b> (la estrella ★).</li>
+        <li><b>Goles:</b> arquero +12, defensor +9, volante +6, delantero +4.</li>
+        <li><b>Tu jugador gana su partido:</b> +2 (empate +1).</li>
+        <li><b>Valla invicta</b> (su selección no recibió goles): arquero +4, defensor +2.</li>
+        <li><b>Capitán:</b> duplica todos sus puntos de la ronda.</li>
+        <li><b>Multiplicador por ronda:</b> grupos ×1, Ronda de 32 ×1.25, octavos ×1.5, cuartos ×1.75, semis/final ×2.</li>
+        <li><b>Transferencias:</b> 3 cambios por ronda, sin penalización (hay una ventana entre rondas).</li>
+      </ul>
+      <b>Para entregar tu equipo:</b> armalo, tocá “Generar código”, copialo y mandáselo a quien organiza.
+      <br><br><span style="color:var(--ink-faint)">Nota: los datos gratuitos no traen minutos ni alineaciones, así que los puntos por victoria y valla se reparten a todos tus jugadores de ese equipo, hayan jugado o no.</span>
+    </div>
+  </details>
+
+  <div class="banner" id="poolBanner">Cargando jugadores…</div>
+
+  <div class="sec-h"><h2>Tu equipo</h2><div class="ln"></div><div class="ct" id="sct">0 / 15</div></div>
+  <div id="squad"></div>
+
+  <div class="sec-h"><h2>Jugadores</h2><div class="ln"></div></div>
+  <div class="filters">
+    <input class="search" id="search" placeholder="Buscar jugador o selección…" autocomplete="off">
+    <div class="tabs" id="tabs">
+      <button class="tab on" data-f="ALL">Todos</button><button class="tab" data-f="ARQ">ARQ</button>
+      <button class="tab" data-f="DEF">DEF</button><button class="tab" data-f="MED">MED</button><button class="tab" data-f="DEL">DEL</button>
+    </div>
+  </div>
+  <div class="list" id="list"></div>
+</div>
+<div class="foot"><button class="gen" id="gen" disabled>Generar código<span class="sub" id="gensub">Completá el plantel</span></button></div>
+<div class="modal" id="modal"><div class="box">
+  <h3>Tu código de equipo</h3>
+  <p>Copialo y mandáselo a quien organiza la liga. Es tu equipo completo + capitán.</p>
+  <div class="code" id="codeOut"></div>
+  <div class="acts"><button class="copy" id="copyBtn">Copiar</button><button class="close" id="closeBtn">Cerrar</button></div>
+</div></div>
+
+<script>
+const BUDGET=65.0, CAP_NAT=4, QUOTA={ARQ:2,DEF:5,MED:5,DEL:3}, ORDER=['ARQ','DEF','MED','DEL'];
+const LBL={ARQ:'Arqueros',DEF:'Defensores',MED:'Volantes',DEL:'Delanteros'};
+let POOL=[], squad=[], captain=null, filter='ALL', query='';
+const FALLBACK=[ // por si players.json no esta disponible (preview)
+ {id:1,name:'(ejemplo) Arquero A',nat:'Argentina',pos:'ARQ',price:6.5},{id:2,name:'(ejemplo) Arquero B',nat:'Brasil',pos:'ARQ',price:5},
+ {id:3,name:'(ejemplo) Defensor A',nat:'Francia',pos:'DEF',price:6},{id:4,name:'(ejemplo) Defensor B',nat:'España',pos:'DEF',price:5},
+ {id:5,name:'(ejemplo) Volante A',nat:'Inglaterra',pos:'MED',price:9},{id:6,name:'(ejemplo) Delantero A',nat:'Francia',pos:'DEL',price:12}];
+
+async function load(){
+  try{
+    const r=await fetch('data/players.json',{cache:'no-store'});
+    if(!r.ok) throw 0;
+    const obj=await r.json();
+    POOL=Object.values(obj);
+    document.getElementById('poolBanner').textContent=`${POOL.length} jugadores disponibles. Precios editables por el organizador.`;
+  }catch(e){
+    POOL=FALLBACK;
+    document.getElementById('poolBanner').innerHTML='⚠️ No encontré <b>data/players.json</b> (todavía no se generó el pool). Mostrando ejemplos para que veas la interfaz.';
+  }
+  render();
+}
+const byId=id=>POOL.find(p=>p.id===id);
+const spent=()=>squad.reduce((s,id)=>s+byId(id).price,0);
+const rem=()=>+(BUDGET-spent()).toFixed(1);
+const posCount=p=>squad.filter(id=>byId(id).pos===p).length;
+const natCount=n=>squad.filter(id=>byId(id).nat===n).length;
+function block(p){
+  if(squad.includes(p.id))return'En equipo';
+  if(squad.length>=15)return'Lleno';
+  if(posCount(p.pos)>=QUOTA[p.pos])return LBL[p.pos]+' OK';
+  if(natCount(p.nat)>=CAP_NAT)return'Tope 4';
+  if(p.price>rem())return'Sin $$';
+  return null;
+}
+function render(){budget();chips();squadView();list();foot();}
+function budget(){const r=rem(),n=document.getElementById('bn');n.innerHTML='$'+r.toFixed(1)+'<small style="font-size:13px"> M</small>';n.className='num'+(r<0?' bad':(r<5?' warn':''));
+  const b=document.getElementById('bb');b.style.width=Math.max(0,Math.min(100,spent()/BUDGET*100))+'%';b.className=r<0?'bad':'';}
+function chips(){let h=`<div class="chip ${squad.length===15?'done':''}">Plantel <b>${squad.length}/15</b></div>`;
+  ORDER.forEach(p=>{const n=posCount(p),q=QUOTA[p];h+=`<div class="chip ${n===q?'done':(n>q?'over':'')}">${p} <b>${n}/${q}</b></div>`;});
+  [...new Set(squad.map(id=>byId(id).nat))].filter(nt=>natCount(nt)>=CAP_NAT).forEach(nt=>h+=`<div class="chip done">${nt} <b>${natCount(nt)}/4</b></div>`);
+  document.getElementById('chips').innerHTML=h;}
+function squadView(){document.getElementById('sct').textContent=squad.length+' / 15';let h='';
+  ORDER.forEach(pos=>{const pls=squad.map(byId).filter(p=>p.pos===pos);h+=`<div class="pos-group"><div class="pos-lbl">${LBL[pos]} · ${pls.length}/${QUOTA[pos]}</div>`;
+    pls.forEach(p=>{h+=`<div class="slot"><div class="pl"><div class="n">${p.name}</div><div class="m">${p.nat}</div></div>
+      <div class="price">${p.price.toFixed(1)}<small> M</small></div>
+      <button class="cap-btn ${captain===p.id?'on':''}" onclick="cap(${p.id})" title="Capitán">★</button>
+      <button class="rm-btn" onclick="rm(${p.id})">×</button></div>`;});
+    for(let i=0;i<QUOTA[pos]-pls.length;i++)h+=`<div class="slot empty">+ ${LBL[pos].slice(0,-1)} libre</div>`;
+    h+=`</div>`;});
+  document.getElementById('squad').innerHTML=h;}
+function list(){let pool=POOL.slice();if(filter!=='ALL')pool=pool.filter(p=>p.pos===filter);
+  if(query){const q=query.toLowerCase();pool=pool.filter(p=>p.name.toLowerCase().includes(q)||p.nat.toLowerCase().includes(q));}
+  pool.sort((a,b)=>{const ba=block(a)?1:0,bb=block(b)?1:0;return ba-bb||b.price-a.price;});
+  pool=pool.slice(0,80);
+  document.getElementById('list').innerHTML=pool.map(p=>{const r=block(p),ins=squad.includes(p.id);
+    return `<div class="row ${r&&!ins?'blocked':''}"><span class="pos-tag">${p.pos}</span>
+      <div class="pl"><div class="n">${p.name}</div><div class="m">${p.nat}</div></div>
+      <div class="price">${p.price.toFixed(1)}<small> M</small></div>
+      ${ins?`<button class="add-btn" style="background:var(--card-hi);color:var(--ink-dim)" onclick="rm(${p.id})">−</button>`
+        :r?`<span class="reason">${r}</span>`:`<button class="add-btn" onclick="add(${p.id})">+</button>`}</div>`;}).join('')
+    || '<div style="text-align:center;color:var(--ink-faint);padding:20px">Nada por acá</div>';}
+function valid(){if(squad.length!==15)return'Faltan jugadores';for(const p of ORDER)if(posCount(p)!==QUOTA[p])return LBL[p]+' incompletos';
+  if(rem()<0)return'Te pasaste de presupuesto';if([...new Set(squad.map(id=>byId(id).nat))].some(n=>natCount(n)>CAP_NAT))return'Tope 4 por selección';
+  if(!captain)return'Elegí capitán';return null;}
+function foot(){const e=valid();document.getElementById('gen').disabled=!!e;document.getElementById('gensub').textContent=e||'Equipo válido — ¡listo!';}
+function add(id){if(block(byId(id)))return;squad.push(id);render();}
+function rm(id){squad=squad.filter(x=>x!==id);if(captain===id)captain=null;render();}
+function cap(id){captain=captain===id?null:id;render();}
+document.getElementById('tabs').onclick=e=>{const b=e.target.closest('.tab');if(!b)return;document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));b.classList.add('on');filter=b.dataset.f;list();};
+document.getElementById('search').oninput=e=>{query=e.target.value;list();};
+document.getElementById('gen').onclick=()=>{if(valid())return;const code=btoa(squad.join('-')+'~'+captain);
+  document.getElementById('codeOut').textContent=code;document.getElementById('modal').classList.add('show');};
+document.getElementById('copyBtn').onclick=()=>{navigator.clipboard.writeText(document.getElementById('codeOut').textContent);document.getElementById('copyBtn').textContent='¡Copiado!';};
+document.getElementById('closeBtn').onclick=()=>document.getElementById('modal').classList.remove('show');
+load();
+</script>
+</body>
+</html>

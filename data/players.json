@@ -1,0 +1,1801 @@
+{
+"3285": {
+"id": 3285,
+"name": "Guillermo Ochoa",
+"nat": "Mexico",
+"pos": "ARQ",
+"price": 3.0
+},
+"39540": {
+"id": 39540,
+"name": "Carlos Acevedo",
+"nat": "Mexico",
+"pos": "ARQ",
+"price": 3.0
+},
+"177674": {
+"id": 177674,
+"name": "José Rangel",
+"nat": "Mexico",
+"pos": "ARQ",
+"price": 3.0
+},
+"3298": {
+"id": 3298,
+"name": "Jesús Gallardo",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"39246": {
+"id": 39246,
+"name": "César Montes",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"39330": {
+"id": 39330,
+"name": "Johan Vásquez",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"39546": {
+"id": 39546,
+"name": "Jorge Sánchez",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"84096": {
+"id": 84096,
+"name": "Israel Reyes",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"246145": {
+"id": 246145,
+"name": "Mateo Chávez",
+"nat": "Mexico",
+"pos": "DEF",
+"price": 3.0
+},
+"3293": {
+"id": 3293,
+"name": "Edson Álvarez",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"38786": {
+"id": 38786,
+"name": "Orbelín Pineda",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"39587": {
+"id": 39587,
+"name": "Luis Chávez",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"39927": {
+"id": 39927,
+"name": "Luis Romo",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"76356": {
+"id": 76356,
+"name": "Erik Lira",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"99992": {
+"id": 99992,
+"name": "Álvaro Fidalgo",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"144457": {
+"id": 144457,
+"name": "Brian Gutiérrez",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"170442": {
+"id": 170442,
+"name": "Obed Vargas",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"264596": {
+"id": 264596,
+"name": "Gilberto Mora",
+"nat": "Mexico",
+"pos": "MED",
+"price": 3.5
+},
+"3305": {
+"id": 3305,
+"name": "Raúl Jiménez",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"39237": {
+"id": 39237,
+"name": "Julián Quiñones",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"39472": {
+"id": 39472,
+"name": "Roberto Alvarado",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"39635": {
+"id": 39635,
+"name": "Santiago Giménez",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"39667": {
+"id": 39667,
+"name": "Alexis Vega",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"39833": {
+"id": 39833,
+"name": "Guillermo Martínez",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"98820": {
+"id": 98820,
+"name": "César Huerta",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"229284": {
+"id": 229284,
+"name": "Armando González",
+"nat": "Mexico",
+"pos": "DEL",
+"price": 4.0
+},
+"33986": {
+"id": 33986,
+"name": "Ronwen Williams",
+"nat": "South Africa",
+"pos": "ARQ",
+"price": 3.0
+},
+"34123": {
+"id": 34123,
+"name": "Sipho Chaine",
+"nat": "South Africa",
+"pos": "ARQ",
+"price": 3.0
+},
+"34456": {
+"id": 34456,
+"name": "Ricardo Goss",
+"nat": "South Africa",
+"pos": "ARQ",
+"price": 3.0
+},
+"33994": {
+"id": 33994,
+"name": "Aubrey Modiba",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"34481": {
+"id": 34481,
+"name": "Nkosinathi Sibisi",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"74101": {
+"id": 74101,
+"name": "Khuliso Mudau",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"217832": {
+"id": 217832,
+"name": "Olwethu Makhanya",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"245836": {
+"id": 245836,
+"name": "Bradley Cross",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"277223": {
+"id": 277223,
+"name": "Samukelo Kabini",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"279850": {
+"id": 279850,
+"name": "Ime Okon",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"285992": {
+"id": 285992,
+"name": "Mbekezeli Mbokazi",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"286005": {
+"id": 286005,
+"name": "Khulumani Ndamane",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"287754": {
+"id": 287754,
+"name": "Tholo Matuludi",
+"nat": "South Africa",
+"pos": "DEF",
+"price": 3.0
+},
+"33954": {
+"id": 33954,
+"name": "Themba Zwane",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"34012": {
+"id": 34012,
+"name": "Teboho Mokoena",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"133788": {
+"id": 133788,
+"name": "Sphephelo Sithole",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"147928": {
+"id": 147928,
+"name": "Jayden Adams",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"245495": {
+"id": 245495,
+"name": "Thapelo Maseko",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"277299": {
+"id": 277299,
+"name": "Thalente Mbatha",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"286003": {
+"id": 286003,
+"name": "Kamogelo Sebelebele",
+"nat": "South Africa",
+"pos": "MED",
+"price": 3.5
+},
+"34760": {
+"id": 34760,
+"name": "Lyle Foster",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"118915": {
+"id": 118915,
+"name": "Oswin Appollis",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"124636": {
+"id": 124636,
+"name": "Iqraam Rayners",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"245511": {
+"id": 245511,
+"name": "Evidence Makgopa",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"270771": {
+"id": 270771,
+"name": "Relebohile Mofokeng",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"287753": {
+"id": 287753,
+"name": "Tshepang Moremi",
+"nat": "South Africa",
+"pos": "DEL",
+"price": 4.0
+},
+"166683": {
+"id": 166683,
+"name": "Seung-Gyu Kim",
+"nat": "South Korea",
+"pos": "ARQ",
+"price": 3.0
+},
+"189673": {
+"id": 189673,
+"name": "Bum-keun Song",
+"nat": "South Korea",
+"pos": "ARQ",
+"price": 3.0
+},
+"189775": {
+"id": 189775,
+"name": "Hyeon-woo Jo",
+"nat": "South Korea",
+"pos": "ARQ",
+"price": 3.0
+},
+"168299": {
+"id": 168299,
+"name": "Min-Jae Kim",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"171221": {
+"id": 171221,
+"name": "Moon-hwan Kim",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"217715": {
+"id": 217715,
+"name": "Han-bum Lee",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"243858": {
+"id": 243858,
+"name": "Young-woo Seol",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"244407": {
+"id": 244407,
+"name": "Jin-seob Park",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"246906": {
+"id": 246906,
+"name": "Tae-hyeon Kim",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"254209": {
+"id": 254209,
+"name": "Gi-hyuk Lee",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"282051": {
+"id": 282051,
+"name": "Tae-seok Lee",
+"nat": "South Korea",
+"pos": "DEF",
+"price": 3.0
+},
+"151888": {
+"id": 151888,
+"name": "Jens Castrop",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"170561": {
+"id": 170561,
+"name": "In-beom Hwang",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"177318": {
+"id": 177318,
+"name": "Dong-gyeong Lee",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"179889": {
+"id": 179889,
+"name": "Jae-sung Lee",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"189741": {
+"id": 189741,
+"name": "Jin-Gyu Kim",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"189752": {
+"id": 189752,
+"name": "Seung-Ho Paik",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"213217": {
+"id": 213217,
+"name": "Kang-in Lee",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"217655": {
+"id": 217655,
+"name": "Joon-ho Bae",
+"nat": "South Korea",
+"pos": "MED",
+"price": 3.5
+},
+"3354": {
+"id": 3354,
+"name": "Hwang Heechan",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"170281": {
+"id": 170281,
+"name": "Heung-min Son",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"189665": {
+"id": 189665,
+"name": "Hyun-jun Yang",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"189762": {
+"id": 189762,
+"name": "Gue-Sung Cho",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"191295": {
+"id": 191295,
+"name": "Hyun-Gyu Oh",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"261683": {
+"id": 261683,
+"name": "Ji-sung Eom",
+"nat": "South Korea",
+"pos": "DEL",
+"price": 4.0
+},
+"120246": {
+"id": 120246,
+"name": "Jindřich Staněk",
+"nat": "Czechia",
+"pos": "ARQ",
+"price": 3.0
+},
+"136350": {
+"id": 136350,
+"name": "Matej Kovar",
+"nat": "Czechia",
+"pos": "ARQ",
+"price": 3.0
+},
+"146753": {
+"id": 146753,
+"name": "Lukáš Horníček",
+"nat": "Czechia",
+"pos": "ARQ",
+"price": 3.0
+},
+"62493": {
+"id": 62493,
+"name": "Ladislav Krejčí",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"62536": {
+"id": 62536,
+"name": "Jaroslav Zelený",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"62631": {
+"id": 62631,
+"name": "Vladimir Coufal",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"62769": {
+"id": 62769,
+"name": "Tomáš Holeš",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"127813": {
+"id": 127813,
+"name": "David Zima",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"146716": {
+"id": 146716,
+"name": "David Jurásek",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"188239": {
+"id": 188239,
+"name": "Robin Hranac",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"254530": {
+"id": 254530,
+"name": "Štěpán Chaloupek",
+"nat": "Czechia",
+"pos": "DEF",
+"price": 3.0
+},
+"6556": {
+"id": 6556,
+"name": "Vladimír Darida",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"15742": {
+"id": 15742,
+"name": "Tomáš Souček",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"62821": {
+"id": 62821,
+"name": "David Douděra",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"67970": {
+"id": 67970,
+"name": "Michal Sadílek",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"120279": {
+"id": 120279,
+"name": "Lukáš Provod",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"121312": {
+"id": 121312,
+"name": "Pavel Šulc",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"145322": {
+"id": 145322,
+"name": "Lukáš Červ",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"154082": {
+"id": 154082,
+"name": "Denis Višinský",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"269966": {
+"id": 269966,
+"name": "Alexandr Sojka",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"293648": {
+"id": 293648,
+"name": "Hugo Sochůrek",
+"nat": "Czechia",
+"pos": "MED",
+"price": 3.5
+},
+"1826": {
+"id": 1826,
+"name": "Patrik Schick",
+"nat": "Czechia",
+"pos": "DEL",
+"price": 4.0
+},
+"16396": {
+"id": 16396,
+"name": "Tomáš Chorý",
+"nat": "Czechia",
+"pos": "DEL",
+"price": 4.0
+},
+"62726": {
+"id": 62726,
+"name": "Jan Kuchta",
+"nat": "Czechia",
+"pos": "DEL",
+"price": 4.0
+},
+"99042": {
+"id": 99042,
+"name": "Adam Hložek",
+"nat": "Czechia",
+"pos": "DEL",
+"price": 4.0
+},
+"99752": {
+"id": 99752,
+"name": "Mojmír Chytil",
+"nat": "Czechia",
+"pos": "DEL",
+"price": 4.0
+},
+"21226": {
+"id": 21226,
+"name": "Maxime Crépeau",
+"nat": "Canada",
+"pos": "ARQ",
+"price": 3.0
+},
+"113351": {
+"id": 113351,
+"name": "Dayne St. Clair",
+"nat": "Canada",
+"pos": "ARQ",
+"price": 3.0
+},
+"189264": {
+"id": 189264,
+"name": "Owen Goodman",
+"nat": "Canada",
+"pos": "ARQ",
+"price": 3.0
+},
+"21288": {
+"id": 21288,
+"name": "Alphonso Davies",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"77691": {
+"id": 77691,
+"name": "Richie Laryea",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"81286": {
+"id": 81286,
+"name": "Alfie Jones",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"112209": {
+"id": 112209,
+"name": "Joel Waterman",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"113228": {
+"id": 113228,
+"name": "Derek Cornelius",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"118604": {
+"id": 118604,
+"name": "Alistair Johnston",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"192153": {
+"id": 192153,
+"name": "Moise Bombito",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"217596": {
+"id": 217596,
+"name": "Luc De Fougerolles",
+"nat": "Canada",
+"pos": "DEF",
+"price": 3.0
+},
+"21199": {
+"id": 21199,
+"name": "Jonathan Osorio",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"37479": {
+"id": 37479,
+"name": "Stephen Eustáquio",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"72777": {
+"id": 72777,
+"name": "Mathieu Choinière",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"113175": {
+"id": 113175,
+"name": "Tajon Buchanan",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"140546": {
+"id": 140546,
+"name": "Marcelo Flores",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"171216": {
+"id": 171216,
+"name": "Nathan-Dylan Saliba",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"172183": {
+"id": 172183,
+"name": "Ismael Kone",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"181976": {
+"id": 181976,
+"name": "Ali Ahmed",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"216809": {
+"id": 216809,
+"name": "Niko Sigur",
+"nat": "Canada",
+"pos": "MED",
+"price": 3.5
+},
+"8924": {
+"id": 8924,
+"name": "Jonathan David",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"15958": {
+"id": 15958,
+"name": "Cyle Larin",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"110807": {
+"id": 110807,
+"name": "Liam Millar",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"111842": {
+"id": 111842,
+"name": "Jacob Shaffelburg",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"177826": {
+"id": 177826,
+"name": "Tani Oluwaseyi",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"260992": {
+"id": 260992,
+"name": "Promise Akinpelu",
+"nat": "Canada",
+"pos": "DEL",
+"price": 4.0
+},
+"17645": {
+"id": 17645,
+"name": "Martin Zlomislić",
+"nat": "Bosnia-Herzegovina",
+"pos": "ARQ",
+"price": 3.0
+},
+"65105": {
+"id": 65105,
+"name": "Nikola Vasilj",
+"nat": "Bosnia-Herzegovina",
+"pos": "ARQ",
+"price": 3.0
+},
+"276572": {
+"id": 276572,
+"name": "Mladen Jurkas",
+"nat": "Bosnia-Herzegovina",
+"pos": "ARQ",
+"price": 3.0
+},
+"7786": {
+"id": 7786,
+"name": "Sead Kolašinac",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"15357": {
+"id": 15357,
+"name": "Dennis Hadžikadunić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"17869": {
+"id": 17869,
+"name": "Nihad Mujakić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"23182": {
+"id": 23182,
+"name": "Nikola Katić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"65758": {
+"id": 65758,
+"name": "Stjepan Radeljić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"81816": {
+"id": 81816,
+"name": "Amar Dedić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"189153": {
+"id": 189153,
+"name": "Tarik Muharemović",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"216398": {
+"id": 216398,
+"name": "Nidal Čelik",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEF",
+"price": 3.0
+},
+"9400": {
+"id": 9400,
+"name": "Dženis Burnić",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"23206": {
+"id": 23206,
+"name": "Ivan Šunjić",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"30102": {
+"id": 30102,
+"name": "Amir Hadžiahmetović",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"119385": {
+"id": 119385,
+"name": "Armin Gigovic",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"147030": {
+"id": 147030,
+"name": "Ivan Bašić",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"189280": {
+"id": 189280,
+"name": "Benjamin Tahirovic",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"221764": {
+"id": 221764,
+"name": "Ermin Mahmic",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"275052": {
+"id": 275052,
+"name": "Amar Memić",
+"nat": "Bosnia-Herzegovina",
+"pos": "MED",
+"price": 3.5
+},
+"1822": {
+"id": 1822,
+"name": "Edin Džeko",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"17767": {
+"id": 17767,
+"name": "Jovo Lukić",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"33242": {
+"id": 33242,
+"name": "Ermedin Demirovic",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"63218": {
+"id": 63218,
+"name": "Haris Tabaković",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"172226": {
+"id": 172226,
+"name": "Samed Bazdar",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"186380": {
+"id": 186380,
+"name": "Esmir Bajraktarevic",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"272213": {
+"id": 272213,
+"name": "Kerim Alajbegović",
+"nat": "Bosnia-Herzegovina",
+"pos": "DEL",
+"price": 4.0
+},
+"76936": {
+"id": 76936,
+"name": "Matt Turner",
+"nat": "United States",
+"pos": "ARQ",
+"price": 3.0
+},
+"113261": {
+"id": 113261,
+"name": "Matt Freese",
+"nat": "United States",
+"pos": "ARQ",
+"price": 3.0
+},
+"167172": {
+"id": 167172,
+"name": "Chris Brady",
+"nat": "United States",
+"pos": "ARQ",
+"price": 3.0
+},
+"3927": {
+"id": 3927,
+"name": "Antonee Robinson",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"3956": {
+"id": 3956,
+"name": "Tim Ream",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"76866": {
+"id": 76866,
+"name": "Miles Robinson",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"77185": {
+"id": 77185,
+"name": "Auston Trusty",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"77803": {
+"id": 77803,
+"name": "Mark McKenzie",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"82442": {
+"id": 82442,
+"name": "Joseph Scally",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"97534": {
+"id": 97534,
+"name": "Sergiño Dest",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"99856": {
+"id": 99856,
+"name": "Chris Richards",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"177823": {
+"id": 177823,
+"name": "Alex Freeman",
+"nat": "United States",
+"pos": "DEF",
+"price": 3.0
+},
+"6507": {
+"id": 6507,
+"name": "Weston McKennie",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"39023": {
+"id": 39023,
+"name": "Alejandro Zendejas",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"77029": {
+"id": 77029,
+"name": "Cristian Roldan",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"77596": {
+"id": 77596,
+"name": "Tyler Adams",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"113262": {
+"id": 113262,
+"name": "Brenden Aaronson",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"136733": {
+"id": 136733,
+"name": "Gio Reyna",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"140416": {
+"id": 140416,
+"name": "Sebastian Berhalter",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"144470": {
+"id": 144470,
+"name": "Malik Tillman",
+"nat": "United States",
+"pos": "MED",
+"price": 3.5
+},
+"145": {
+"id": 145,
+"name": "Christian Pulisic",
+"nat": "United States",
+"pos": "DEL",
+"price": 5.0
+},
+"8492": {
+"id": 8492,
+"name": "Tim Weah",
+"nat": "United States",
+"pos": "DEL",
+"price": 4.0
+},
+"10076": {
+"id": 10076,
+"name": "Haji Wright",
+"nat": "United States",
+"pos": "DEL",
+"price": 4.0
+},
+"119731": {
+"id": 119731,
+"name": "Ricardo Pepi",
+"nat": "United States",
+"pos": "DEL",
+"price": 4.0
+},
+"131040": {
+"id": 131040,
+"name": "Folarin Balogun",
+"nat": "United States",
+"pos": "DEL",
+"price": 4.0
+},
+"192180": {
+"id": 192180,
+"name": "Max Arfsten",
+"nat": "United States",
+"pos": "DEL",
+"price": 4.0
+},
+"28294": {
+"id": 28294,
+"name": "Gastón Olveira",
+"nat": "Paraguay",
+"pos": "ARQ",
+"price": 3.0
+},
+"169622": {
+"id": 169622,
+"name": "Roberto Fernández",
+"nat": "Paraguay",
+"pos": "ARQ",
+"price": 3.0
+},
+"270728": {
+"id": 270728,
+"name": "Orlando Gill",
+"nat": "Paraguay",
+"pos": "ARQ",
+"price": 3.0
+},
+"1436": {
+"id": 1436,
+"name": "Fabián Balbuena",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"1741": {
+"id": 1741,
+"name": "Gustavo Gómez",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"8395": {
+"id": 8395,
+"name": "Júnior Alonso",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"46491": {
+"id": 46491,
+"name": "Omar Alderete",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"141752": {
+"id": 141752,
+"name": "Juan Cáceres",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"172169": {
+"id": 172169,
+"name": "Gustavo Velázquez",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"178832": {
+"id": 178832,
+"name": "José Canale",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"274608": {
+"id": 274608,
+"name": "Alexandro Maidana",
+"nat": "Paraguay",
+"pos": "DEF",
+"price": 3.0
+},
+"46467": {
+"id": 46467,
+"name": "Andrés Cubas",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"57316": {
+"id": 57316,
+"name": "Kaku",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"76861": {
+"id": 76861,
+"name": "Miguel Almirón",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"119594": {
+"id": 119594,
+"name": "Mauricio",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"122397": {
+"id": 122397,
+"name": "Braian Ojeda",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"165622": {
+"id": 165622,
+"name": "Matías Galarza",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"168954": {
+"id": 168954,
+"name": "Damian Bobadilla",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"178951": {
+"id": 178951,
+"name": "Diego Gómez",
+"nat": "Paraguay",
+"pos": "MED",
+"price": 3.5
+},
+"14": {
+"id": 14,
+"name": "Antonio Sanabria",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"59693": {
+"id": 59693,
+"name": "Gabriel Ávalos",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"114353": {
+"id": 114353,
+"name": "Isidro Pitta",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"140647": {
+"id": 140647,
+"name": "Ramón Sosa",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"168949": {
+"id": 168949,
+"name": "Julio Enciso",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"191772": {
+"id": 191772,
+"name": "Gustavo Caballero",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"250206": {
+"id": 250206,
+"name": "Alex Arce",
+"nat": "Paraguay",
+"pos": "DEL",
+"price": 4.0
+},
+"103173": {
+"id": 103173,
+"name": "Salah Zakaria",
+"nat": "Qatar",
+"pos": "ARQ",
+"price": 3.0
+},
+"129104": {
+"id": 129104,
+"name": "Meshaal Barsham",
+"nat": "Qatar",
+"pos": "ARQ",
+"price": 3.0
+},
+"156781": {
+"id": 156781,
+"name": "Mahmoud Abunada",
+"nat": "Qatar",
+"pos": "ARQ",
+"price": 3.0
+},
+"115828": {
+"id": 115828,
+"name": "Boualem Khoukhi",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"189707": {
+"id": 189707,
+"name": "Jassem Gaber Abdulsallam",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"189725": {
+"id": 189725,
+"name": "Homam Ahmed",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"189969": {
+"id": 189969,
+"name": "Ró-Ró",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"194260": {
+"id": 194260,
+"name": "Lucas Mendes",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"249804": {
+"id": 249804,
+"name": "Sultan Al Brake",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"295196": {
+"id": 295196,
+"name": "Ayoub Al-Oui",
+"nat": "Qatar",
+"pos": "DEF",
+"price": 3.0
+},
+"57667": {
+"id": 57667,
+"name": "Assim Madibo",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"115827": {
+"id": 115827,
+"name": "Abdulaziz Hatem",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"115829": {
+"id": 115829,
+"name": "Karim Boudiaf",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"115832": {
+"id": 115832,
+"name": "Ahmed Fathy",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"129107": {
+"id": 129107,
+"name": "Yusuf Abdurisag",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"249923": {
+"id": 249923,
+"name": "Ahmed Al Ganehi",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"253301": {
+"id": 253301,
+"name": "Tahsin Jamshid",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"253597": {
+"id": 253597,
+"name": "Mohamed Al Banna",
+"nat": "Qatar",
+"pos": "MED",
+"price": 3.5
+},
+"57652": {
+"id": 57652,
+"name": "Akram Afif",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"115837": {
+"id": 115837,
+"name": "Almoez Ali",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"135684": {
+"id": 135684,
+"name": "Mohammed Muntari",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"189973": {
+"id": 189973,
+"name": "Hassan Al Haydos",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"189976": {
+"id": 189976,
+"name": "Ahmed Alaa Eldin",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"255986": {
+"id": 255986,
+"name": "Edmílson",
+"nat": "Qatar",
+"pos": "DEL",
+"price": 4.0
+},
+"334": {
+"id": 334,
+"name": "Gregor Kobel",
+"nat": "Switzerland",
+"pos": "ARQ",
+"price": 3.0
+},
+"9534": {
+"id": 9534,
+"name": "Yvon Mvogo",
+"nat": "Switzerland",
+"pos": "ARQ",
+"price": 3.0
+},
+"205190": {
+"id": 205190,
+"name": "Marvin Keller",
+"nat": "Switzerland",
+"pos": "ARQ",
+"price": 3.0
+},
+"143": {
+"id": 143,
+"name": "Manuel Akanji",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"1745": {
+"id": 1745,
+"name": "Ricardo Rodriguez",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"2114": {
+"id": 2114,
+"name": "Silvan Widmer",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"3475": {
+"id": 3475,
+"name": "Nico Elvedi",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"30823": {
+"id": 30823,
+"name": "Eray Cömert",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"50215": {
+"id": 50215,
+"name": "Miro Muheim",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"169297": {
+"id": 169297,
+"name": "Aurele Amenda",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"176711": {
+"id": 176711,
+"name": "Luca Jaquez",
+"nat": "Switzerland",
+"pos": "DEF",
+"price": 3.0
+},
+"1841": {
+"id": 1841,
+"name": "Remo Freuler",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"3477": {
+"id": 3477,
+"name": "Granit Xhaka",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"6687": {
+"id": 6687,
+"name": "Denis Zakaria",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"16265": {
+"id": 16265,
+"name": "Michel Aebischer",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"16275": {
+"id": 16275,
+"name": "Djibril Sow",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"16281": {
+"id": 16281,
+"name": "Christian Fassnacht",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"31913": {
+"id": 31913,
+"name": "Ruben Vargas",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"144909": {
+"id": 144909,
+"name": "Ardon Jasari",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"152692": {
+"id": 152692,
+"name": "Fabian Rieder",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"212309": {
+"id": 212309,
+"name": "Johan Manzambi",
+"nat": "Switzerland",
+"pos": "MED",
+"price": 3.5
+},
+"3483": {
+"id": 3483,
+"name": "Breel Embolo",
+"nat": "Switzerland",
+"pos": "DEL",
+"price": 4.0
+},
+"16058": {
+"id": 16058,
+"name": "Noah Okafor",
+"nat": "Switzerland",
+"pos": "DEL",
+"price": 4.0
+},
+"30780": {
+"id": 30780,
+"name": "Cédric Itten",
+"nat": "Switzerland",
+"pos": "DEL",
+"price": 4.0
+},
+"77641": {
+"id": 77641,
+"name": "Dan Ndoye",
+"nat": "Switzerland",
+"pos": "DEL",
+"price": 4.0
+},
+"122313": {
+"id": 122313,
+"name": "Zeki Amdouni",
+"nat": "Switzerland",
+"pos": "DEL",
+"price": 4.0
+}
+}

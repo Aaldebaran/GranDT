@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0c0e0c">
+<title>Gran DT Mundial 2026 — Tabla</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0e0c;--card:#181c17;--card-hi:#1f241d;--line:#2a2f27;--ink:#eef1ea;--ink-dim:#9aa295;--ink-faint:#646b5e;--lime:#c8f94b;--orange:#ff8a3d}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Hanken Grotesk',sans-serif;line-height:1.45;-webkit-font-smoothing:antialiased;min-height:100vh;background-image:radial-gradient(120% 60% at 50% -10%,#1a2016 0%,transparent 60%)}
+.wrap{max-width:480px;margin:0 auto;padding-bottom:40px}
+header{position:sticky;top:0;z-index:30;background:linear-gradient(180deg,#0c0e0c 60%,#0c0e0cdd);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 18px 12px}
+.brand{display:flex;align-items:baseline;justify-content:space-between}
+.brand h1{font-family:'Anton';font-weight:400;font-size:20px;letter-spacing:.5px;text-transform:uppercase}
+.brand h1 span{color:var(--lime)}
+.brand a{font-size:11px;color:#11160a;background:var(--lime);text-decoration:none;padding:6px 11px;border-radius:99px;font-weight:800}
+.upd{font-size:10px;color:var(--ink-faint);margin-top:4px;letter-spacing:.5px;text-transform:uppercase;font-weight:700}
+details.rules{margin:14px 18px;background:#13160f;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+details.rules summary{cursor:pointer;padding:12px 14px;font-weight:800;font-size:13px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+details.rules summary::-webkit-details-marker{display:none}
+details.rules summary::after{content:"▾";color:var(--lime)} details.rules[open] summary::after{content:"▴"}
+.rules .body{padding:0 14px 14px;font-size:12.5px;color:var(--ink-dim);line-height:1.5}
+.rules .body b{color:var(--ink)} .rules .body ul{margin:6px 0 6px 16px} .rules .body li{margin:3px 0}
+.demo{margin:0 18px 8px;font-size:11px;color:#ffce8a;background:#16140c;border:1px solid #3a3414;border-radius:8px;padding:8px 10px;font-weight:700}
+.sec-h{display:flex;align-items:center;gap:8px;padding:16px 18px 10px}
+.sec-h h2{font-family:'Anton';font-weight:400;font-size:15px;letter-spacing:1px;text-transform:uppercase}
+.sec-h .ln{flex:1;height:1px;background:var(--line)}
+.dt{margin:0 18px 8px;background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.dt .top{display:flex;align-items:center;gap:12px;padding:13px 14px;cursor:pointer}
+.rank{font-family:'Anton';font-size:22px;width:30px;color:var(--ink-faint);text-align:center}
+.rank.p1{color:var(--lime)} .rank.p2{color:#ccc} .rank.p3{color:var(--orange)}
+.dt .nm{flex:1;font-weight:800;font-size:16px}
+.dt .pts{font-family:'Anton';font-size:24px;color:var(--lime);font-variant-numeric:tabular-nums}
+.dt .pts small{font-size:11px;color:var(--ink-faint);font-family:'Hanken Grotesk';font-weight:700}
+.dt .rounds{display:flex;gap:5px;flex-wrap:wrap;padding:0 14px 12px}
+.rb{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#23271f;color:var(--ink-dim)}
+.detail{border-top:1px solid var(--line);padding:10px 14px;display:none;background:#13160f}
+.detail.show{display:block}
+.detail .dh{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-faint);font-weight:700;margin-bottom:8px}
+.prow{display:flex;align-items:center;gap:8px;font-size:12.5px;padding:3px 0}
+.prow .pn{flex:1}.prow .pp{font-family:'Anton';color:var(--lime);font-variant-numeric:tabular-nums}
+.pt{font-size:9px;font-weight:800;padding:2px 5px;border-radius:5px;background:#23271f;color:var(--ink-dim)}
+.wait{text-align:center;color:var(--ink-faint);padding:30px 20px;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>Gran <span>DT</span> · Mundial 26</h1><a href="armar.html">Armar equipo</a></div>
+    <div class="upd" id="upd"></div>
+  </header>
+
+  <details class="rules">
+    <summary>Cómo se juega</summary>
+    <div class="body">
+      <b>Objetivo:</b> cada uno arma un equipo de 15 jugadores reales del Mundial con $65 M. Sumás puntos por lo que hacen en la cancha. Gana quien más junta al final.
+      <ul>
+        <li><b>Plantel:</b> 2 arqueros, 5 defensores, 5 volantes, 3 delanteros. Máximo <b>4 de una misma selección</b>. <b>1 capitán</b>.</li>
+        <li><b>Goles:</b> arquero +12, defensor +9, volante +6, delantero +4.</li>
+        <li><b>Gana su partido:</b> +2 (empate +1). <b>Valla invicta:</b> arquero +4, defensor +2.</li>
+        <li><b>Capitán:</b> duplica sus puntos de la ronda.</li>
+        <li><b>Multiplicador:</b> grupos ×1 · Ronda de 32 ×1.25 · octavos ×1.5 · cuartos ×1.75 · semis/final ×2.</li>
+        <li><b>Transferencias:</b> 3 por ronda, sin penalización.</li>
+      </ul>
+      Para jugar: entrá a <b>Armar equipo</b>, generá tu código y mandáselo a quien organiza.
+    </div>
+  </details>
+
+  <div class="demo" id="demo" style="display:none"></div>
+  <div class="sec-h"><h2>Tabla</h2><div class="ln"></div></div>
+  <div id="tabla"></div>
+</div>
+
+<script>
+const DEMO={updated:"ejemplo", _demo:true,
+  rondas:{R1:{label:"Grupos j1+2",mult:1.0,completa:true}},
+  dts:{Gaby:{total:139,rondas:{R1:139}},Tincho:{total:127,rondas:{R1:127}},Colo:{total:100,rondas:{R1:100}}},
+  ultimo_detalle:{
+    Gaby:[{name:"Mbappé",nat:"Francia",pos:"DEL",pts:32,det:"3 gol DEL +12 / CAPITAN x2"},{name:"Romero",nat:"Argentina",pos:"DEF",pts:17,det:"gol +9 / 2 victorias / 2 vallas"},{name:"E. Martínez",nat:"Argentina",pos:"ARQ",pts:12,det:"2 victorias / 2 vallas"}],
+    Tincho:[{name:"E. Martínez",nat:"Argentina",pos:"ARQ",pts:24,det:"2 victorias / 2 vallas / CAPITAN x2"},{name:"Romero",nat:"Argentina",pos:"DEF",pts:17,det:"gol +9 / vallas"}],
+    Colo:[{name:"Bruno Fernandes",nat:"Portugal",pos:"MED",pts:18,det:"gol +6 / CAPITAN x2"},{name:"Mbappé",nat:"Francia",pos:"DEL",pts:16,det:"3 goles"}]},
+  tabla:[["Gaby",139],["Tincho",127],["Colo",100]]};
+
+async function load(){
+  let s;
+  try{const r=await fetch('data/standings.json',{cache:'no-store'});if(!r.ok)throw 0;s=await r.json();
+    const conPuntos=(s.tabla||[]).some(x=>x[1]>0);
+    if(!conPuntos){s=DEMO;showDemo("El torneo todavía no empezó. Mostrando una fecha de ejemplo.");}
+  }catch(e){s=DEMO;showDemo("Aún no hay datos publicados. Mostrando una fecha de ejemplo.");}
+  render(s);
+}
+function showDemo(msg){const d=document.getElementById('demo');d.style.display='block';d.textContent='⚽ '+msg;}
+function render(s){
+  document.getElementById('upd').textContent = s.updated==="ejemplo" ? "datos de ejemplo" : "actualizado: "+s.updated;
+  const rondas=s.rondas||{};
+  const html=(s.tabla||[]).map(([dt,total],i)=>{
+    const d=s.dts[dt]||{rondas:{}}; const det=(s.ultimo_detalle&&s.ultimo_detalle[dt])||[];
+    const rb=Object.keys(rondas).map(rid=>`<span class="rb">${rondas[rid].label}: ${d.rondas[rid]??0}</span>`).join('');
+    const dh=det.map(p=>`<div class="prow"><span class="pt">${p.pos}</span><span class="pn">${p.name} <span style="color:var(--ink-faint)">${p.nat}</span></span><span class="pp">+${p.pts}</span></div>`).join('')
+      || '<div style="color:var(--ink-faint);font-size:12px">Sin puntos todavía</div>';
+    return `<div class="dt"><div class="top" onclick="this.parentNode.querySelector('.detail').classList.toggle('show')">
+      <div class="rank p${i+1}">${i+1}</div><div class="nm">${dt}</div><div class="pts">${total}<small> pts</small></div></div>
+      <div class="rounds">${rb}</div>
+      <div class="detail"><div class="dh">Detalle última ronda</div>${dh}</div></div>`;
+  }).join('');
+  document.getElementById('tabla').innerHTML = html || '<div class="wait">Todavía no hay equipos cargados.</div>';
+}
+load();
+</script>
+</body>
+</html>
