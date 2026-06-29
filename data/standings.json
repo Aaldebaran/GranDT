@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28",
+ "updated": "2026-06-29",
  "dts": {
   "Gaby": {
    "total": 0,
@@ -24,6 +24,11 @@
    "label": "Grupos j3",
    "mult": 1.0,
    "completa": true
+  },
+  "R3": {
+   "label": "Ronda de 32",
+   "mult": 1.25,
+   "completa": false
   }
  },
  "ultimo_detalle": {},
