@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04",
+ "updated": "2026-07-05",
  "dts": {
   "Gaby": {
    "total": 0,
@@ -29,6 +29,11 @@
    "label": "Ronda de 32",
    "mult": 1.25,
    "completa": true
+  },
+  "R4": {
+   "label": "Octavos",
+   "mult": 1.5,
+   "completa": false
   }
  },
  "ultimo_detalle": {},
