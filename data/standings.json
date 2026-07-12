@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11",
+ "updated": "2026-07-12",
  "dts": {
   "Gaby": {
    "total": 0,
@@ -38,7 +38,7 @@
   "R5": {
    "label": "Cuartos",
    "mult": 1.75,
-   "completa": false
+   "completa": true
   }
  },
  "ultimo_detalle": {},
