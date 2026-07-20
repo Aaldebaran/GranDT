@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19",
+ "updated": "2026-07-20",
  "dts": {
   "Gaby": {
    "total": 0,
@@ -43,7 +43,7 @@
   "R6": {
    "label": "Semis+Final",
    "mult": 2.0,
-   "completa": false
+   "completa": true
   }
  },
  "ultimo_detalle": {},
